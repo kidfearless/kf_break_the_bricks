@@ -1,0 +1,23 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Lvl 1",
+      "Type": "map",
+      "Org": "local",
+      "Ident": "lvl1",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": [],
+      "EditorReferences": [
+        "spongeis.spongehouse#65599"
+      ],
+      "IsWhitelistDisabled": false,
+      "Metadata": {
+        "SingleAssetSource": "maps/lvl1.vmap",
+        "ParentPackage": "fearless.kf_break_the_bricks"
+      }
+    }
+  }
+}

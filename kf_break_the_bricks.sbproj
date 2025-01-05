@@ -1,0 +1,29 @@
+{
+  "Title": "Break The Bricks",
+  "Type": "game",
+  "Org": "fearless",
+  "Ident": "kf_break_the_bricks",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "IsWhitelistDisabled": false,
+  "Metadata": {
+    "MaxPlayers": 1,
+    "MinPlayers": 1,
+    "TickRate": 50,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.flatgrass"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "CsProjName": "",
+    "StartupScene": "scenes/level staging.scene",
+    "LaunchMode": "Normal",
+    "MapStartupScene": "scenes/level staging.scene"
+  }
+}

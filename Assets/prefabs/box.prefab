@@ -1,0 +1,103 @@
+{
+  "RootObject": {
+    "__guid": "af537d12-862c-4d2b-a1ff-2e72ec2ad4f6",
+    "Flags": 0,
+    "Name": "box",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "1284ccf5-7663-498f-89b0-aa24fafe73a9",
+        "Flags": 0,
+        "Name": "box",
+        "Position": "0,-16,0",
+        "Rotation": "-0.5,0.5,0.5,0.5",
+        "Tags": "box",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "KfBox",
+            "__guid": "ac7f1e6b-f20b-4140-918b-5ca056267447",
+            "Health": 1
+          },
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "4c5fe4ac-0028-4af1-98d8-bc0b435d6ea3",
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "Model": "gamemodels/box.vmdl",
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.ModelCollider",
+            "__guid": "5744c5f3-8f6c-489d-a54e-5a9f657cb565",
+            "IsTrigger": false,
+            "Model": "gamemodels/box.vmdl",
+            "Static": true,
+            "SurfaceVelocity": "0,0,0"
+          },
+          {
+            "__type": "Sandbox.Rigidbody",
+            "__guid": "11e3e330-ba3d-44aa-a40e-d0e413b8a28f",
+            "AngularDamping": 0,
+            "Gravity": false,
+            "LinearDamping": 0,
+            "Locking": {
+              "X": false,
+              "Y": false,
+              "Z": false,
+              "Pitch": false,
+              "Yaw": false,
+              "Roll": false
+            },
+            "MassCenterOverride": "0,0,0",
+            "MassOverride": 0,
+            "MotionEnabled": true,
+            "OverrideMassCenter": false,
+            "RigidbodyFlags": 0,
+            "StartAsleep": false
+          }
+        ]
+      }
+    ],
+    "__variables": [],
+    "__properties": {
+      "FixedUpdateFrequency": 50,
+      "MaxFixedUpdates": 5,
+      "NetworkFrequency": 30,
+      "NetworkInterpolation": true,
+      "PhysicsSubSteps": 1,
+      "ThreadedAnimation": true,
+      "TimeScale": 1,
+      "UseFixedUpdate": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    }
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [
+    "darklands.box#73870"
+  ],
+  "__version": 1
+}
